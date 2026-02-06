@@ -131,18 +131,6 @@
                 <artifactId>fireflyframework-notifications</artifactId>
                 <version>${project.version}</version>
             </dependency>
-
-            <!-- Payments -->
-            <dependency>
-                <groupId>org.fireflyframework</groupId>
-                <artifactId>fireflyframework-psps</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.fireflyframework</groupId>
-                <artifactId>fireflyframework-rails</artifactId>
-                <version>${project.version}</version>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
