@@ -1,4 +1,6 @@
 # Firefly Framework - Bill of Materials (BOM)
+    
+[![CI](https://github.com/fireflyframework/fireflyframework-bom/actions/workflows/ci.yml/badge.svg)](https://github.com/fireflyframework/fireflyframework-bom/actions/workflows/ci.yml)
 
 A Maven BOM that provides centralized version management for all Firefly Framework modules. Importing this artifact into your `dependencyManagement` section ensures that every framework dependency resolves to a compatible, tested version without requiring explicit version declarations.
 
