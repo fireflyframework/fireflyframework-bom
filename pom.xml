@@ -6,11 +6,33 @@
 
     <groupId>org.fireflyframework</groupId>
     <artifactId>fireflyframework-bom</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>26.01.01</version>
     <packaging>pom</packaging>
 
     <name>Firefly Framework - BOM</name>
     <description>Bill of Materials for the Firefly Framework. Import this in your dependencyManagement to get consistent versions of all framework modules.</description>
+
+    <url>https://github.com/fireflyframework</url>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Firefly Software Solutions Inc</name>
+            <email>dev@fireflyframework.com</email>
+            <organization>Firefly Software Solutions Inc</organization>
+            <organizationUrl>https://fireflyframework.com</organizationUrl>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/fireflyframework/fireflyframework-bom.git</connection>
+        <developerConnection>scm:git:ssh://github.com:fireflyframework/fireflyframework-bom.git</developerConnection>
+        <url>https://github.com/fireflyframework/fireflyframework-bom</url>
+    </scm>
 
     <dependencyManagement>
         <dependencies>
@@ -251,4 +273,44 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <profiles>
+        <profile>
+            <id>release</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-source-plugin</artifactId>
+                        <version>3.4.0</version>
+                        <executions>
+                            <execution>
+                                <id>attach-sources</id>
+                                <goals>
+                                    <goal>jar-no-fork</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <version>3.12.0</version>
+                        <configuration>
+                            <doclint>none</doclint>
+                            <failOnError>false</failOnError>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <id>attach-javadocs</id>
+                                <goals>
+                                    <goal>jar</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 </project>
