@@ -54,7 +54,7 @@ Import the BOM in your project's `dependencyManagement` section:
         <dependency>
             <groupId>org.fireflyframework</groupId>
             <artifactId>fireflyframework-bom</artifactId>
-            <version>26.02.01</version>
+            <version>26.02.02</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
