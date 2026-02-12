@@ -108,6 +108,13 @@
                 <version>${project.version}</version>
             </dependency>
 
+            <!-- Observability -->
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-observability</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
             <!-- Application Layer -->
             <dependency>
                 <groupId>org.fireflyframework</groupId>
