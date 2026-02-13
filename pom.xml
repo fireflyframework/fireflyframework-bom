@@ -36,6 +36,13 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- Kernel (foundational — all modules depend on this) -->
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-kernel</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
             <!-- Core Framework -->
             <dependency>
                 <groupId>org.fireflyframework</groupId>
