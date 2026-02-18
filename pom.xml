@@ -6,7 +6,7 @@
 
     <groupId>org.fireflyframework</groupId>
     <artifactId>fireflyframework-bom</artifactId>
-    <version>26.02.04</version>
+    <version>26.02.05</version>
     <packaging>pom</packaging>
 
     <name>Firefly Framework - BOM</name>
@@ -96,17 +96,17 @@
             </dependency>
             <dependency>
                 <groupId>org.fireflyframework</groupId>
-                <artifactId>fireflyframework-core</artifactId>
+                <artifactId>fireflyframework-starter-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.fireflyframework</groupId>
-                <artifactId>fireflyframework-domain</artifactId>
+                <artifactId>fireflyframework-starter-domain</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.fireflyframework</groupId>
-                <artifactId>fireflyframework-data</artifactId>
+                <artifactId>fireflyframework-starter-data</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -125,7 +125,7 @@
             <!-- Application Layer -->
             <dependency>
                 <groupId>org.fireflyframework</groupId>
-                <artifactId>fireflyframework-application</artifactId>
+                <artifactId>fireflyframework-starter-application</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -150,6 +150,21 @@
                 <artifactId>fireflyframework-ecm-storage-azure</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-ecm-esignature-docusign</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-ecm-esignature-adobe-sign</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-ecm-esignature-logalty</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
             <!-- IDP -->
             <dependency>
@@ -172,11 +187,41 @@
                 <artifactId>fireflyframework-idp-keycloak</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-idp-azure-ad</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
             <!-- Notifications -->
             <dependency>
                 <groupId>org.fireflyframework</groupId>
                 <artifactId>fireflyframework-notifications</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-notifications-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-notifications-firebase</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-notifications-twilio</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-notifications-sendgrid</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-notifications-resend</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -276,6 +321,24 @@
             <dependency>
                 <groupId>org.fireflyframework</groupId>
                 <artifactId>fireflyframework-callbacks-sdk</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- Plugins -->
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-plugins</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>plugin-api</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>plugin-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
 

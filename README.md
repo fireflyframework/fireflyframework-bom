@@ -70,7 +70,7 @@ After importing the BOM, add any Firefly Framework module without specifying a v
 <dependencies>
     <dependency>
         <groupId>org.fireflyframework</groupId>
-        <artifactId>fireflyframework-core</artifactId>
+        <artifactId>fireflyframework-starter-core</artifactId>
     </dependency>
     <dependency>
         <groupId>org.fireflyframework</groupId>
