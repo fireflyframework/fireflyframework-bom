@@ -30,7 +30,7 @@ This is the recommended approach when your project already has its own parent PO
 ## Features
 
 - Single import provides version management for all Firefly Framework modules
-- Covers core framework modules (cache, EDA, CQRS, event sourcing, transactional engine)
+- Covers core framework modules (cache, EDA, CQRS, event sourcing, orchestration engine)
 - Covers application layers (application, backoffice, web, domain, data)
 - Covers ECM modules and storage adapters (AWS S3, Azure Blob)
 - Covers IDP modules (Keycloak, AWS Cognito, internal DB)
