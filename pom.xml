@@ -6,7 +6,7 @@
 
     <groupId>org.fireflyframework</groupId>
     <artifactId>fireflyframework-bom</artifactId>
-    <version>26.05.05</version>
+    <version>26.05.07</version>
     <packaging>pom</packaging>
 
     <name>Firefly Framework - BOM</name>
@@ -22,9 +22,9 @@
     </licenses>
     <developers>
         <developer>
-            <name>Firefly Software Solutions Inc</name>
+            <name>Firefly Software Foundation</name>
             <email>dev@fireflyframework.org</email>
-            <organization>Firefly Software Solutions Inc</organization>
+            <organization>Firefly Software Foundation</organization>
             <organizationUrl>https://fireflyframework.org</organizationUrl>
         </developer>
     </developers>
@@ -340,6 +340,29 @@
             <dependency>
                 <groupId>org.fireflyframework</groupId>
                 <artifactId>fireflyframework-config-server</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!-- Agentic Bridge -->
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-agentic-bridge</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-agentic-bridge-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-agentic-bridge-autoconfigure</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-agentic-bridge-starter</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
