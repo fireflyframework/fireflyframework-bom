@@ -61,12 +61,47 @@
             </dependency>
             <dependency>
                 <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-cache-redis</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-cache-hazelcast</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-cache-jcache</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-cache-postgres</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
                 <artifactId>fireflyframework-r2dbc</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.fireflyframework</groupId>
                 <artifactId>fireflyframework-eda</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-eda-kafka</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-eda-rabbitmq</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-eda-postgres</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
