@@ -52,7 +52,7 @@ The BOM pins versions for every module in the framework. They are grouped below 
 | **Starters** | `fireflyframework-starter-core`, `-starter-domain`, `-starter-data`, `-starter-application` | Opinionated Spring Boot starters per architectural tier. |
 | **Application Layer** | `fireflyframework-backoffice` | Back-office application building blocks. |
 | **ECM** | `fireflyframework-ecm` + `-ecm-storage-aws`, `-ecm-storage-azure`, `-ecm-esignature-docusign`, `-ecm-esignature-adobe-sign`, `-ecm-esignature-logalty` | Enterprise content management with pluggable storage (S3, Azure Blob) and e-signature adapters. |
-| **IDP** | `fireflyframework-idp` + `-idp-keycloak`, `-idp-aws-cognito`, `-idp-azure-ad`, `-idp-internal-db` | Identity-provider abstraction with pluggable provider adapters. |
+| **IDP** | `fireflyframework-security-idp` + `-idp-keycloak`, `-idp-aws-cognito`, `-idp-azure-ad`, `-idp-internal-db` | Identity-provider abstraction with pluggable provider adapters. |
 | **Notifications** | `fireflyframework-notifications`, `-notifications-core` + `-notifications-firebase`, `-twilio`, `-sendgrid`, `-resend` | Multi-channel notifications (push, SMS, email) with provider adapters. |
 | **Rule Engine** | `fireflyframework-rule-engine` (aggregator) + `-core`, `-interfaces`, `-models`, `-web`, `-sdk` | YAML-DSL business rule engine. |
 | **Webhooks** | `fireflyframework-webhooks` (aggregator) + `-interfaces`, `-core`, `-web`, `-processor`, `-sdk` | Inbound/outbound webhook delivery and processing. |
