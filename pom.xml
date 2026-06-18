@@ -198,27 +198,27 @@
             <!-- IDP -->
             <dependency>
                 <groupId>org.fireflyframework</groupId>
-                <artifactId>fireflyframework-idp</artifactId>
+                <artifactId>fireflyframework-security-idp</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.fireflyframework</groupId>
-                <artifactId>fireflyframework-idp-aws-cognito</artifactId>
+                <artifactId>fireflyframework-security-idp-aws-cognito</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.fireflyframework</groupId>
-                <artifactId>fireflyframework-idp-internal-db</artifactId>
+                <artifactId>fireflyframework-security-idp-internal-db</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.fireflyframework</groupId>
-                <artifactId>fireflyframework-idp-keycloak</artifactId>
+                <artifactId>fireflyframework-security-idp-keycloak</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.fireflyframework</groupId>
-                <artifactId>fireflyframework-idp-azure-ad</artifactId>
+                <artifactId>fireflyframework-security-idp-azure-ad</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
