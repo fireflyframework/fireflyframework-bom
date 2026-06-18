@@ -280,6 +280,11 @@
             </dependency>
             <dependency>
                 <groupId>org.fireflyframework</groupId>
+                <artifactId>fireflyframework-security-adapter-vault</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fireflyframework</groupId>
                 <artifactId>fireflyframework-security-adapter-r2dbc</artifactId>
                 <version>${project.version}</version>
             </dependency>
